@@ -1,6 +1,6 @@
 from mysql import connector as c
 
-connection = c.connect(host='localhost',user='shree',password='shree@123')
+connection = c.connect(host='localhost',user='myuser',password='user@123')
 curser = connection.cursor()
 curser.execute("create database NAMES")
 curser.execute("use NAMES")
