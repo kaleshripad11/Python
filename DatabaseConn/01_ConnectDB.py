@@ -2,7 +2,7 @@
 from mysql import connector
 
 ## Create connection object
-connection = connector.connect(host='localhost',user='shree',password='shree@123',database='dummy_db')
+connection = connector.connect(host='localhost',user='myuser',password='user@123',database='dummy_db')
 if connection.is_connected():
     info = connection.get_server_info()
     print(info)
