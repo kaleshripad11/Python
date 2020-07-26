@@ -2,7 +2,7 @@
 from mysql import connector
 
 #### Create connector object
-conobj = connector.connect(host='localhost',user='shree',password='shree@123')
+conobj = connector.connect(host='localhost',user='myuser',password='user@123')
 
 #### Create cursor object to store records from databases
 curser = conobj.cursor()
