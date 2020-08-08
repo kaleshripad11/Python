@@ -12,7 +12,6 @@ for i in range(0,len(keylist)):
 	print(keylist[i],end="\n")
 
 """
-Output
 $ python3 keywords.py 
 False
 None
