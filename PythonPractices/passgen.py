@@ -27,7 +27,7 @@ print(password_str)
 
 """
 Output:-
-shree@linux:~/Documents/Python2020/BasicExercises$ ./passgen.py 
+user@linux:~/Documents/Python2020/BasicExercises$ ./passgen.py 
 Your randomly generated password is as below : 
 SzkHEj0#&Tq4yPD9
 """
